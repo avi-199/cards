@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+.container {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.card1 {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+
+}
+
+.card2 {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+
+}
+
+.card3 {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+
+}
+
+.card1:hover {
+    background-color: orange;
+    transform: scale(1.1);
+
+
+}
+
+.card2:hover {
+    background-color: brown;
+    transform: scale(1.1);
+}
+
+.card3:hover {
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+
+
+}
+
+.num1,
+.num2,
+.num3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height: 200px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.num1 {
+    background-color: orange;
+
+}
+
+.num2 {
+    background-color: brown;
+}
+
+.num3 {
+    background-color: aquamarine;
+}
+
+span {
+    color: white;
+
+}
+
+a {
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+
+
+}
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: brown;
+}
+
+.box3 {
+    background-color: aquamarine;
+}
